@@ -1,0 +1,17 @@
+import React from 'react';
+import './BlogSection.css';
+import Header from "./Header";
+import Copyright from "./Copyright";
+
+function BlogSection() {
+  return (
+    <>
+      <Header />
+      <h2>Blogs (Welcome to My Mind /The Unusually Named Writer)</h2>
+      <p>nav section leading to blogs, maybe a visual. Include comment section in the blogs?</p>
+      <Copyright />
+    </>
+  )
+}
+
+export default BlogSection

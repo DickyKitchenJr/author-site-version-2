@@ -1,13 +1,18 @@
 import './App.css';
-import Copyright from './Components/Copyright';
+import LandingPage from './Components/LandingPage';
+import About from './Components/About';
+import KidFriendly from './Components/KidFriendly';
+import AllBooks from './Components/AllBooks';
+import BlogSection from './Components/BlogSection';
 
 function App() {
   return (
     <>
-      <h1>Here I am</h1>
-      <footer>
-        <Copyright />
-      </footer>
+      <LandingPage />
+      <About />
+      <KidFriendly />
+      <AllBooks />
+      <BlogSection />
     </>
   );
 }
