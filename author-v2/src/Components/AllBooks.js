@@ -6,6 +6,7 @@ import Copyright from './Copyright';
 function AllBooks() {
   return (
     <>
+    {/* TODO: create write-ups for book blurbs and reviews, possibly use the ones from the previous site? */}
         <Header />
         <h2>All Books</h2>
         <p>include all books, pictures, snippets, reviews, and links</p>
