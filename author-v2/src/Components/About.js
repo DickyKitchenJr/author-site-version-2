@@ -6,6 +6,7 @@ import Copyright from "./Copyright";
 function About() {
   return (
     <>
+    {/* TODO: Finish writing bio and possibly include a links section for resources */}
       <Header />
       <h2>Meet the Author</h2>
       <p>
