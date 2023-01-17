@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
-import { Parallax } from 'react-parallax';
+
 
 
 function Header() {
   return (
     <>
-      <h1>Header</h1>
+      <h1 className='main-header'>Dicky Kitchen Jr</h1>
     </>
   );
 }
