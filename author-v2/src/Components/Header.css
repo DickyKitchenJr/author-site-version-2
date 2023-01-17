@@ -1,4 +1,9 @@
-.main{
-    padding-top: 15vw;
-    padding-bottom: 15vw;
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.main-header{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    color: hsl(0, 0%, 96%);
+    background-color: hsl(0, 2%, 13%);
+    padding: .75rem;
 }
