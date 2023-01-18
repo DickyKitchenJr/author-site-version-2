@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"); */
+
+@font-face {
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
+  font-display: swap;
+}
 
 .landing-main {
   padding-top: 40vw;
