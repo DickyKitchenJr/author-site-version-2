@@ -1,25 +1,49 @@
 import React from 'react';
 import './Nav.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav className='main-nav'>
-      <Link className="nav-link" to="/">
+    <nav className="main-nav">
+      <NavLink className="nav-link" to="/">
         HOME
-      </Link>
-      <Link className="nav-link" to="/about">
+      </NavLink>
+      <NavLink
+        className="nav-link"
+        style={({ isActive }) => {
+          return isActive ? { color: "red" } : {};
+        }}
+        to="/about"
+      >
         ABOUT
-      </Link>
-      <Link className="nav-link" to="/blogs">
+      </NavLink>
+      <NavLink
+        className="nav-link"
+        style={({ isActive }) => {
+          return isActive ? { color: "red" } : {};
+        }}
+        to="/blogs"
+      >
         BLOG
-      </Link>
-      <Link className="nav-link" to="/thrillers">
+      </NavLink>
+      <NavLink
+        className="nav-link"
+        style={({ isActive }) => {
+          return isActive ? { color: "red" } : {};
+        }}
+        to="/thrillers"
+      >
         THRILLERS
-      </Link>
-      <Link className="nav-link" to="/kidfriendly">
+      </NavLink>
+      <NavLink
+        className="nav-link"
+        style={({ isActive }) => {
+          return isActive ? { color: "red" } : {};
+        }}
+        to="/kidfriendly"
+      >
         KID FRIENDLY
-      </Link>
+      </NavLink>
     </nav>
   );
 }
