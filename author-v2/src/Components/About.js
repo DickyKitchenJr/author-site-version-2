@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
+import { Twirl as Hamburger } from 'hamburger-react';
 import Header from "./Header";
 import Nav from "./Nav";
 import Copyright from "./Copyright";
 
 function About() {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <>
-    {/* TODO: Finish writing bio and possibly include a links section for resources */}
+      {/* TODO: Finish writing bio and possibly include a links section for resources */}
       <Header />
-      <Nav />
+      <div className="nav-menu">
+        <Hamburger toggled={isOpen} toggle={setOpen} />
+        {isOpen ? <Nav /> : null}
+      </div>
+      
+
       <h2>Meet the Author</h2>
       <p>
         About the author section with picture and mention of BookInd, possible
