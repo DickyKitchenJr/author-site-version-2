@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Header from "./Header";
+import Nav from "./Nav";
 import Copyright from "./Copyright";
 
 function About() {
@@ -8,6 +9,7 @@ function About() {
     <>
     {/* TODO: Finish writing bio and possibly include a links section for resources */}
       <Header />
+      <Nav />
       <h2>Meet the Author</h2>
       <p>
         About the author section with picture and mention of BookInd, possible
