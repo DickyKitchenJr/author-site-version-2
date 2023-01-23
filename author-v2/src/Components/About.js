@@ -36,15 +36,15 @@ function About() {
         </div>
 
         <p className="about-p">
-          Dicky Kitchen Jr, author, creator of{" "}
+          Author, creator of the writing discord server{" "}
           <a
             href="https://discord.gg/K9VtKNKqsB"
             target="_blank"
             rel="noreferrer"
           >
             BookInd
-          </a>{" "}
-          answers the all important question:
+          </a>,{" "}
+          and friend to the writing community; Dicky Kitchen Jr answers the all important question:
           <br />
           "What happens when you name your child after a body part and a room in
           the house?""
