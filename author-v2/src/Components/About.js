@@ -35,14 +35,22 @@ function About() {
           />
         </div>
 
-        <p>
-          About the author section with picture and mention of BookInd, possible
-          links to resources I use (editor, image creation, software, etc)
-        </p>
-        <p>
-          What happens when you name your child after a body part and a room in
-          the house?
+        <p className="about-p">
+          Dicky Kitchen Jr, author, creator of{" "}
+          <a
+            href="https://discord.gg/K9VtKNKqsB"
+            target="_blank"
+            rel="noreferrer"
+          >
+            BookInd
+          </a>{" "}
+          answers the all important question:
           <br />
+          "What happens when you name your child after a body part and a room in
+          the house?""
+          <br />
+          <br />
+          The answer:
           <br />
           He creates his own serial killer, breaks the rules of writing by
           creating a story with both third and first person storytelling (all
