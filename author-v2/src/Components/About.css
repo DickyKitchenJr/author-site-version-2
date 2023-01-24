@@ -1,0 +1,20 @@
+.about-header{
+    display: flex;
+    justify-content: center;
+}
+
+.about-h2{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 5vw;
+}
+
+.typing-author{
+    max-width: 100%;
+}
+
+.about-p{
+    padding: 1rem;
+}
