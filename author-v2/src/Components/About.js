@@ -44,10 +44,10 @@ function About() {
           >
             BookInd
           </a>,{" "}
-          and friend to the writing community; Dicky Kitchen Jr answers the all important question:
+          and friend to the writing community; Dicky Kitchen Jr answers the all-important question:
           <br />
           "What happens when you name your child after a body part and a room in
-          the house?""
+          the house?"
           <br />
           <br />
           The answer:
