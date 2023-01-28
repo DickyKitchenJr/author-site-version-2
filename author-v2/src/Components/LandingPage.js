@@ -20,6 +20,11 @@ function LandingPage() {
         <Header />
 
         <main className="landing-main">
+          <img
+            className="bw-author"
+            src={BWAuthor}
+            alt="black and white of the author"
+          />
           <nav className="landing-nav">
             <Link className="landing-link" to="/about">
               ABOUT
@@ -34,11 +39,6 @@ function LandingPage() {
               KID FRIENDLY
             </Link>
           </nav>
-          <img
-            className="bw-author"
-            src={BWAuthor}
-            alt="black and white of the author"
-          />
         </main>
 
         <Copyright />
