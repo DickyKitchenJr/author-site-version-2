@@ -10,4 +10,11 @@
     color: hsl(0, 0%, 96%);
     background-color: hsl(0, 2%, 13%);
     padding: .75rem;
+    font-size: 1.6em;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-header{
+    font-size: 2em;
+  }
 }
