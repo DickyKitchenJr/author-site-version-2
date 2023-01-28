@@ -11,7 +11,7 @@ function Nav() {
       <NavLink
         className="nav-link"
         style={({ isActive }) => {
-          return isActive ? { color: "red" } : {};
+          return isActive ? { color: "hsl(0, 83%, 47%)" } : {};
         }}
         to="/about"
       >
@@ -20,7 +20,7 @@ function Nav() {
       <NavLink
         className="nav-link"
         style={({ isActive }) => {
-          return isActive ? { color: "red" } : {};
+          return isActive ? { color: "hsl(0, 83%, 47%)" } : {};
         }}
         to="/blogs"
       >
@@ -29,7 +29,7 @@ function Nav() {
       <NavLink
         className="nav-link"
         style={({ isActive }) => {
-          return isActive ? { color: "red" } : {};
+          return isActive ? { color: "hsl(0, 83%, 47%)" } : {};
         }}
         to="/thrillers"
       >
@@ -38,7 +38,7 @@ function Nav() {
       <NavLink
         className="nav-link"
         style={({ isActive }) => {
-          return isActive ? { color: "red" } : {};
+          return isActive ? { color: "hsl(0, 83%, 47%)" } : {};
         }}
         to="/kidfriendly"
       >
