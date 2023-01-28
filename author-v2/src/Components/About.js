@@ -14,27 +14,25 @@ function About() {
       {/* TODO: Finish writing bio and possibly include a links section for resources */}
       <Header />
 
-      <div className="nav-menu">
+      <div className="about">
+
+        <div className="nav-menu">
         <Hamburger toggled={isOpen} toggle={setOpen} />
         {isOpen ? <Nav /> : null}
       </div>
 
       <main className="about-main">
         <div className="about-header">
-          <h2 className="about-h2">
-            Meet
-            <br />
-            The
-            <br />
-            Author
-          </h2>
           <img
-            className="typing-author"
-            src={TypingAuthor}
-            alt="Dicky Kitchen Jr typing on his laptop"
-          />
+          className="typing-author"
+          src={TypingAuthor}
+          alt="Dicky Kitchen Jr typing on his laptop"
+        />
+        <h2 className="about-h2">
+          Meet The Author
+        </h2>
         </div>
-
+        
         <p className="about-p">
           Author, creator of the writing discord server{" "}
           <a
@@ -43,19 +41,20 @@ function About() {
             rel="noreferrer"
           >
             BookInd
-          </a>,{" "}
-          and friend to the writing community; Dicky Kitchen Jr answers the all-important question:
+          </a>
+          , and friend to the writing community; Dicky Kitchen Jr answers the
+          all-important question:
           <br />
-          "What happens when you name your child after a body part and a room in
-          the house?"
+          <span className="about-span">"What happens when you name your child after a body part and a room in
+          the house?"</span>
           <br />
           <br />
           The answer:
           <br />
-          He creates his own serial killer, breaks the rules of writing by
+          <span className="about-span">He creates his own serial killer, breaks the rules of writing by
           creating a story with both third and first person storytelling (all
           while not giving names to any significant character), and creates an
-          ending that has left readers gasping and in awe! That's what.
+          ending that has left readers gasping and in awe! That's what.</span>
           <br />
           <br />
           Dicky Kitchen Jr brings his unique personality and life experiences to
@@ -64,6 +63,8 @@ function About() {
           before.
         </p>
       </main>
+      </div>
+      
 
       <Copyright />
     </>

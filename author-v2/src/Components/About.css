@@ -1,14 +1,33 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
+  font-display: swap;
+}
+
+.about{
+    background-color: hsl(120, 100%, 97%);
+}
+
 .about-header{
-    display: flex;
-    justify-content: center;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .about-h2{
+    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 1vw;
     padding-right: 1vw;
-    font-size: 5vw;
+    font-size: 9vw;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-h2{
+        font-size: 6vw;
+    }
 }
 
 .typing-author{
@@ -17,4 +36,10 @@
 
 .about-p{
     padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-span{
+    font-style: italic;
+    font-weight: bold;
 }
