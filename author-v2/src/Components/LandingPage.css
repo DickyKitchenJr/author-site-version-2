@@ -20,7 +20,7 @@
 .landing-link {
   display: block;
   font-family: "Abril Fatface", "Times New Roman", Times, serif;
-  font-size: 7vw;
+  font-size: 10vw;
   color: black;
   text-decoration: none;
   text-align: center;
@@ -28,6 +28,11 @@
 
 .bw-author{
   width: 80vw;
+  padding-top: 5vw;
+}
+
+.landing-nav{
+  padding-bottom: 10vw;
 }
 
 @media only screen and (min-width: 600px) {
@@ -43,6 +48,11 @@
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-evenly;
+  }
+
+  .landing-nav{
+    padding-bottom: 0;
+    margin-bottom: -8vw;
   }
 
   .landing-link {
