@@ -21,9 +21,8 @@ function Thrillers() {
           <Hamburger toggled={isOpen} toggle={setOpen} />
           {isOpen ? <Nav /> : null}
         </div>
-        <h2>Thrillers</h2>
 
-        <h3 className="book-title">Prey/Pray: Origin of The Average Man</h3>
+        <h2 className="book-title">Prey/Pray: Origin of The Average Man</h2>
         <Parallax
           blur={0}
           bgImage={Hooded}
@@ -72,7 +71,7 @@ function Thrillers() {
           </div>
         </Parallax>
 
-        <h3 className="book-title">Prey/Pray: Hunting Party - The Nurse</h3>
+        <h2 className="book-title">Prey/Pray: Hunting Party - The Nurse</h2>
         <Parallax
           blur={0}
           bgImage={BrokenWoman}
