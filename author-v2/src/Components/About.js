@@ -55,7 +55,7 @@ function About() {
               creating a story with both third and first person storytelling
               (all while not giving names to any significant character), and
               creates an ending that has left readers gasping and in awe!...<br/>
-              Then he makes a cute children's book just to balance things out.
+              Then  he makes a cute children's book just to balance things out.
             </span>
             <br />
             <br />
