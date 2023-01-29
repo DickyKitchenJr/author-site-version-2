@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
+  font-display: swap;
+}
+
+.thrillers{
+    background-color: hsl(120, 100%, 97%);
+}
+
+.book-title{
+    text-align: center;
+    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
+}
+
+.blurb-block{
+    padding: 1rem;
+}
+
+.book-blurb{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    background-color: hsl(0deg 0% 0% / 64%);
+    padding: 0.2rem;
+    width: fit-content;
+}
