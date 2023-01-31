@@ -19,11 +19,71 @@
 
 .book-blurb{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: antiquewhite;
+    color: hsl(34, 78%, 91%);
     background-color: hsl(0deg 0% 0% / 64%);
     padding: 0.2rem;
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+}
+
+.book-cover{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TAM-cover, .Nurse-cover{
+    width: 65vw;
+    padding: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .TAM-cover, .Nurse-cover{
+    width: 35vw;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+    .TAM-cover, .Nurse-cover{
+    width: 20vw;
+}
+}
+
+.review-block{
+    color: hsl(34, 78%, 91%);
+    padding: 1rem;
+}
+
+.review-h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: hsl(0deg 0% 0% / 64%);
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+
+.reviewer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    background-color: hsl(0deg 0% 0% / 64%);
+}
+
+.rating{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: hsl(0deg 0% 0% / 64%);
+}
+
+.review{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(0deg 0% 0% / 64%);
+}
+
+.star{
+    color: yellow;
 }
