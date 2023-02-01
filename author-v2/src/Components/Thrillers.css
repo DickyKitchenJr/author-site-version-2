@@ -68,21 +68,24 @@
     margin-bottom: 1rem;
 }
 
+.review-box{
+    width: fit-content;
+    padding: .2rem;
+    background-color: hsl(0deg 0% 0% / 64%);
+}
+
 .reviewer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
-    background-color: hsl(0deg 0% 0% / 64%);
 }
 
 .rating{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    background-color: hsl(0deg 0% 0% / 64%);
 }
 
 .review{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hsl(0deg 0% 0% / 64%);
 }
 
 .star{
