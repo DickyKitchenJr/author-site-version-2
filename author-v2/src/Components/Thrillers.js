@@ -11,6 +11,8 @@ import TornWoman from '../Images/woman-torn.webp';
 import NurseCover from '../Images/Nurse-book-cover.webp';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import TAMSample from "../BookSamples/TheAverageManSample.pdf";
+import NurseSample from "../BookSamples/TheNurseSample.pdf";
 
 const star = <FontAwesomeIcon className="star" icon={faStar} />
 
@@ -140,6 +142,25 @@ function Thrillers() {
               look forward to reading more from this author in the future....
             </p>
           </div>
+
+          <div className="book-footer">
+            <a
+              className="book-link"
+              href={TAMSample}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sample
+            </a>
+            <a
+              className="book-link"
+              href="https://a.co/d/hkHsEh2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Purchase
+            </a>
+          </div>
         </Parallax>
 
         <h2 className="book-title">Prey/Pray: Hunting Party - The Nurse</h2>
@@ -156,7 +177,6 @@ function Thrillers() {
               alt="The Nurse book cover"
             />
           </div>
-
           <div className="blurb-block">
             <p className="book-blurb">
               The difference between a man and a monster is that one is a
@@ -178,7 +198,6 @@ function Thrillers() {
               Average Man', read that story before reading this one.
             </p>
           </div>
-
           <div className="review-block">
             <h3 className="review-h3">Reviews</h3>
 
@@ -222,6 +241,25 @@ function Thrillers() {
               am extremely hopeful there will be more companion novellas to come
               because I still can't get enough...
             </p>
+          </div>
+
+          <div className="book-footer">
+            <a
+              className="book-link"
+              href={NurseSample}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sample
+            </a>
+            <a
+              className="book-link"
+              href="https://a.co/d/iYd9upM"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Purchase
+            </a>
           </div>
         </Parallax>
       </div>
