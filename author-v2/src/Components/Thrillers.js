@@ -6,15 +6,15 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Copyright from "./Copyright";
 import Hooded from "../Images/hooded-figure.webp";
-import TAMCover from '../Images/TAM-book-cover.webp';
-import TornWoman from '../Images/woman-torn.webp';
-import NurseCover from '../Images/Nurse-book-cover.webp';
+import TAMCover from "../Images/TAM-book-cover.webp";
+import TornWoman from "../Images/woman-torn.webp";
+import NurseCover from "../Images/Nurse-book-cover.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import TAMSample from "../BookSamples/TheAverageManSample.pdf";
 import NurseSample from "../BookSamples/TheNurseSample.pdf";
 
-const star = <FontAwesomeIcon className="star" icon={faStar} />
+const star = <FontAwesomeIcon className="star" icon={faStar} />;
 
 function Thrillers() {
   const [isOpen, setOpen] = useState(false);
