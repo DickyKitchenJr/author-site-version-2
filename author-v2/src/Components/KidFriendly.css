@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
+  font-display: swap;
+}
+
+.kids-section{
+    background-color: hsl(120, 100%, 97%);
+}
+
+.kids-book-title{
+    text-align: center;
+    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
+    padding: 2rem;
+}
+
+.kids-blurb-block{
+    padding: 1rem;
+}
+
+.kids-book-blurb{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(34, 78%, 91%);
+    background-color: hsl(0deg 0% 0% / 64%);
+    padding: 0.2rem;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.kids-book-cover{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Peter-Piper-cover{
+    width: 70vw;
+    padding: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .Peter-Piper-cover{
+    width: 45vw;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+    .Peter-Piper-cover{
+    width: 40vw;
+}
+}
+
+.kids-review-block{
+    color: hsl(34, 78%, 91%);
+    padding: 1rem;
+}
+
+.kids-review-h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: hsl(0deg 0% 0% / 64%);
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+
+.kids-review-box{
+    width: fit-content;
+    padding: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0deg 0% 0% / 64%);
+}
+
+.kids-reviewer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.kids-rating{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.kids-review{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.star{
+    color: hsl(60, 100%, 50%);
+}
+
+.kids-book-footer{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.kids-book-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 1.5rem;
+    color: hsl(180, 100%, 49%);
+    background-color:hsl(0deg 0% 0% / 64%);
+    padding: .3rem;
+}
+
+.kids-book-link:hover{
+    color: hsl(0, 83%, 47%);
+}
