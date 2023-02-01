@@ -21,7 +21,6 @@ function Thrillers() {
 
   return (
     <>
-      {/* TODO: create write-ups for book blurbs and reviews, possibly use the ones from the previous site? Possibly use a click through option for the reviews to save on screen space? */}
       <Header />
 
       <div className="thrillers">
@@ -32,7 +31,7 @@ function Thrillers() {
 
         <h2 className="book-title">Prey/Pray: Origin of The Average Man</h2>
         <Parallax
-          blur={0}
+          blur={2}
           bgImage={Hooded}
           bgImageAlt="hooded figure under a light"
           strength={200}
@@ -89,7 +88,8 @@ function Thrillers() {
           <div className="review-block">
             <h3 className="review-h3">Reviews</h3>
 
-            <p className="reviewer">
+            <div className="review-box">
+              <p className="reviewer">
               DebbieDoesDewie (Amazon review - 2nd ed):
             </p>
             <p className="rating">5 out of 5 {star}</p>
@@ -100,9 +100,12 @@ function Thrillers() {
               it, I was so glad my little brain had the forethought to purchase
               the novella because I definitely wasn't done with this story...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">Natalie (Amazon review - 2nd ed):</p>
+            <div className="review-box">
+              <p className="reviewer">Natalie (Amazon review - 2nd ed):</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               A unique and gripping thriller... In a market saturated with tired
@@ -111,9 +114,12 @@ function Thrillers() {
               that you have to carve out time to read, because once you pick it
               up, you won’t be able to put it down...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">
+            <div className="review-box">
+              <p className="reviewer">
               Andre Gonzalez, author of the Insanity series (Amazon review - 2nd
               ed):
             </p>
@@ -123,24 +129,32 @@ function Thrillers() {
               grabbed me and forced me to push aside everything else so I can
               focus on reading. This book did it!...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">Sherry L. Ross (Amazon review - 1st ed):</p>
+            <div className="review-box">
+              <p className="reviewer">Sherry L. Ross (Amazon review - 1st ed):</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               Gritty and Exciting Crime Thriller... a totally mind-blowing
               ending in which everything you have been thinking gets turned on
               its head...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">Beth(Amazon review - 1st ed)</p>
+            <div className="review-box">
+             <p className="reviewer">Beth(Amazon review - 1st ed)</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               A surprise of a book... I read a lot, so it’s rare for a book to
               catch me by surprise as completely as this one did. I definitely
               look forward to reading more from this author in the future....
-            </p>
+            </p> 
+            </div>
+            
           </div>
 
           <div className="book-footer">
@@ -201,46 +215,61 @@ function Thrillers() {
           <div className="review-block">
             <h3 className="review-h3">Reviews</h3>
 
-            <p className="reviewer">Rachel (Amazon review):</p>
+            <div className="review-box">
+              <p className="reviewer">Rachel (Amazon review):</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               Even better than Prey/Pray: Origin of The Average Man... a superb
               read, I read it all in one sitting.
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">Paula Menz (Amazon review):</p>
+            <div className="review-box">
+              <p className="reviewer">Paula Menz (Amazon review):</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               Hearbreaking and deeply satisfying... this novella will tug some
               heartstrings...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">Aaron Jacobs (Amazon review):</p>
+            <div className="review-box">
+              <p className="reviewer">Aaron Jacobs (Amazon review):</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               Must read if you like drama and great story... a riveting and
               creative story that keeps you locked in... This book is a great
               read, and you will not be disappointed...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">LiveLaughRead (Amazon review):</p>
+            <div className="review-box">
+              <p className="reviewer">LiveLaughRead (Amazon review):</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               Quick emotional read... The author grabs your heart as his words
               wash over you and takes you on an emotional ride...
             </p>
+            </div>
+            
             <br />
 
-            <p className="reviewer">AmazonCustomer (Amazon review)</p>
+            <div className="review-box">
+              <p className="reviewer">AmazonCustomer (Amazon review)</p>
             <p className="rating">5 out of 5 {star}</p>
             <p className="review">
               I started it the moment I finished Origin of The Average Man and I
               am extremely hopeful there will be more companion novellas to come
               because I still can't get enough...
             </p>
+            </div>
+            
           </div>
 
           <div className="book-footer">
