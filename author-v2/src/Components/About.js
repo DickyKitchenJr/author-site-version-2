@@ -65,22 +65,27 @@ function About() {
             "creates his own serial killer" thing), resulting in stories unlike
             any seen before.
           </p>
+
           <div className="about-footer">
             <p className="about-p">
               Interviews of Dicky Kitchen Jr can be found here:
             </p>
-            <a
+            <ul className="about-ul">
+              <li><a
               href="https://www.jessicacantwellbooks.com/post/prey-pray-by-dicky-kitchen-jr"
               target="_blank"
               rel="noreferrer"
             >
               Jessica Cantwell Books
-            </a>
-            <a
+            </a></li>
+            <li>
+              <a
               href="https://fableandtheverbivore.com/podcast/episode-132-interview-with-dicky-kitchen-jr"
               target="_blank"
               rel="noreferrer"
             >Fable & The Verbivore Podcast</a>
+            </li>
+            </ul>
           </div>
         </main>
       </div>
