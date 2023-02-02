@@ -54,8 +54,9 @@ function About() {
               He creates his own serial killer, breaks the rules of writing by
               creating a story with both third and first person storytelling
               (all while not giving names to any significant character), and
-              creates an ending that has left readers gasping and in awe!...<br/>
-              Then  he makes a cute children's book just to balance things out.
+              creates an ending that has left readers gasping and in awe!...
+              <br />
+              Then he makes a cute children's book just to balance things out.
             </span>
             <br />
             <br />
@@ -64,6 +65,23 @@ function About() {
             "creates his own serial killer" thing), resulting in stories unlike
             any seen before.
           </p>
+          <div className="about-footer">
+            <p className="about-p">
+              Interviews of Dicky Kitchen Jr can be found here:
+            </p>
+            <a
+              href="https://www.jessicacantwellbooks.com/post/prey-pray-by-dicky-kitchen-jr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Jessica Cantwell Books
+            </a>
+            <a
+              href="https://fableandtheverbivore.com/podcast/episode-132-interview-with-dicky-kitchen-jr"
+              target="_blank"
+              rel="noreferrer"
+            >Fable & The Verbivore Podcast</a>
+          </div>
         </main>
       </div>
 
