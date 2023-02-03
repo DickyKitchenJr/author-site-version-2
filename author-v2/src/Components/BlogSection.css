@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
+  font-display: swap;
+}
+
+.blog-section{
+    background-color: hsl(120, 100%, 97%);
+}
+
+.blog-nav-link{
+    padding-left: 1rem;
+}
+
+.blog-header{
+    text-align: center;
+    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+.blog-p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.blog-ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
