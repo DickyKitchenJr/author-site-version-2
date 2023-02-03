@@ -1,9 +1,31 @@
-.blog-home-intro{
-    text-align: center;
+@font-face {
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
+  font-display: swap;
 }
 
-.pantser-gif{
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
+.blog-home-intro {
+  text-align: center;
+}
+
+.mugshot{
+    max-width: 100%;
+}
+
+.blog-h2 {
+  font-family: "Abril Fatface", "Times New Roman", Times, serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.blog-nav-link {
+  padding-left: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.pantser-gif {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
