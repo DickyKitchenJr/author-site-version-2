@@ -8,8 +8,16 @@
     background-color: hsl(120, 100%, 97%);
 }
 
-.blog-nav-link{
-    padding-left: 1rem;
+.blog-section-nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+}
+
+.blog-section-nav-link{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
 }
 
 .blog-header{
@@ -22,6 +30,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: .25rem;
 }
 
 .blog-ul{
