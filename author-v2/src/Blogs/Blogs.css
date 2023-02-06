@@ -24,8 +24,28 @@
   font-weight: bold;
 }
 
-.pantser-gif {
+.blog-figure{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.blog-img{
+  max-width: 100%;
+}
+
+.blog-fig-cap{
+  text-align: center;
+}
+
+.gif {
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
+}
+
+.bold-underline{
+  text-decoration: underline;
+  font-weight: bold;
 }
