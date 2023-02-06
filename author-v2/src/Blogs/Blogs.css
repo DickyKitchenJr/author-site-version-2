@@ -49,3 +49,11 @@
   text-decoration: underline;
   font-weight: bold;
 }
+
+.self{
+  color: hsl(348, 83%, 47%);
+}
+
+.guest{
+  color: hsl(282, 100%, 41%);
+}
