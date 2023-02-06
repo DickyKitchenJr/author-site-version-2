@@ -29,8 +29,8 @@ function BlogHome() {
         <NavLink className="blog-section-nav-link" to="all-powerful-review">
           <h3>The All-Powerful Review</h3>
         </NavLink>
-        <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 3</h3>
+        <NavLink className="blog-section-nav-link" to='talking-to-myself'>
+          <h3>Talking to Myself</h3>
         </NavLink>
         <NavLink className="blog-section-nav-link">
           <h3>Place Holder 4</h3>
