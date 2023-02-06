@@ -133,8 +133,9 @@ function Pantser() {
         start stealing pants?
       </p>
       <br />
-      <div className="pantser-gif">
+      <div className="gif">
         <img
+          className="blog-img"
           src="https://media1.tenor.com/images/2378092fec0f4056513b0eeb4b2d3335/tenor.gif?itemid=13396071"
           alt="Spongebob Squarepants pantsing Patrick"
         />
