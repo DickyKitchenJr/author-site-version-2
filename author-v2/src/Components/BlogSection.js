@@ -7,6 +7,7 @@ import Nav from "./Nav";
 import Copyright from "./Copyright";
 import BlogHome from "../Blogs/BlogHome";
 import Pantser from "../Blogs/Pantser";
+import TheReview from "../Blogs/TheReview";
 
 function BlogSection() {
   const [isOpen, setOpen] = useState(false);
@@ -23,6 +24,7 @@ function BlogSection() {
         <Routes>
           <Route index element={<BlogHome />} /> 
           <Route path="pantser" element={<Pantser />} />
+          <Route path="all-powerful-review" element={<TheReview />} />
         </Routes>
       </div>
       <Copyright />
