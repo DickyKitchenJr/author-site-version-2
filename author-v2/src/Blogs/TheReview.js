@@ -63,9 +63,13 @@ function TheReview() {
         influenced by reviews left by previous readers.
       </p>
       <br />
-      <figure className='blog-figure'>
-        <img className='blog-img' src={Rating} alt="the author's novel with a 5 star rating" />
-        <figcaption className='blog-fig-cap'>
+      <figure className="blog-figure">
+        <img
+          className="blog-img"
+          src={Rating}
+          alt="the author's novel with a 5 star rating"
+        />
+        <figcaption className="blog-fig-cap">
           Check out that beautiful rating for my novel. (
           <a href="https://a.co/d/hkHsEh2" target="_blank" rel="noreferrer">
             Purchase 2nd Edition Here
@@ -73,6 +77,7 @@ function TheReview() {
           )
         </figcaption>
       </figure>
+      <br />
       <p className="blog-p">
         They position those devious influencing stars right where you have to
         see them. With the information thrust in front of you, it’s easy to see
@@ -189,11 +194,12 @@ function TheReview() {
       <br />
       <div className="gif">
         <img
-          className='blog-img'
+          className="blog-img"
           src="https://media3.giphy.com/media/67oWKfDkwuFpByHv3j/giphy.gif?cid=ecf05e47s2ko9isxebyua6wgbf0923as5loedbimk1ywtp10&rid=giphy.gif"
           alt="Deku Powering Up"
         />
       </div>
+      <br />
       <p className="blog-p">
         Whoa! Hold on there, you little power crazed monster! Don’t let
         everything go to your head just yet.
