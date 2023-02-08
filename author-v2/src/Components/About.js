@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "./About.css";
 import { Twirl as Hamburger } from "hamburger-react";
-import Header from "./Header";
 import Nav from "./Nav";
-import Copyright from "./Copyright";
 import TypingAuthor from "../Images/author-typing.webp";
 
 function About() {
@@ -12,8 +10,6 @@ function About() {
   return (
     <>
       {/* TODO: Finish writing bio and possibly include a links section for resources */}
-      <Header />
-
       <div className="about">
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -89,8 +85,6 @@ function About() {
           </div>
         </main>
       </div>
-
-      <Copyright />
     </>
   );
 }

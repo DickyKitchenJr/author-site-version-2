@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './KidFriendly.css';
 import { Twirl as Hamburger } from "hamburger-react";
-import Header from './Header';
-import Copyright from './Copyright';
 import Nav from './Nav';
 import { Parallax } from "react-parallax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,9 +16,6 @@ function KidFriendly() {
 
   return (
     <>
-      {/* TODO: create write-up and review section for kids book */}
-      <Header />
-
       <div className='kids-section'>
       <div className="nav-menu">
         <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -111,8 +106,6 @@ function KidFriendly() {
           </div>
         </Parallax>
       </div>
-
-      <Copyright />
     </>
   );
 }

@@ -2,8 +2,6 @@ import React from "react";
 import "./LandingPage.css";
 import { Parallax } from "react-parallax";
 import { Link } from "react-router-dom";
-import Header from "./Header";
-import Copyright from "./Copyright";
 import OpenBook from "../Images/open-book-angled.jpg";
 import BWAuthor from "../Images/author-no-background.png";
 
@@ -17,8 +15,6 @@ function LandingPage() {
         bgImageAlt="opened book"
         strength={500}
       >
-        <Header />
-
         <main className="landing-main">
           <img
             className="bw-author"
@@ -40,8 +36,6 @@ function LandingPage() {
             </Link>
           </nav>
         </main>
-
-        <Copyright />
       </Parallax>
     </>
   );

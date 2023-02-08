@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import "./Thrillers.css";
 import { Parallax } from "react-parallax";
 import { Twirl as Hamburger } from "hamburger-react";
-import Header from "./Header";
 import Nav from "./Nav";
-import Copyright from "./Copyright";
 import Hooded from "../Images/hooded-figure.webp";
 import TAMCover from "../Images/TAM-book-cover.webp";
 import TornWoman from "../Images/woman-torn.webp";
@@ -21,8 +19,6 @@ function Thrillers() {
 
   return (
     <>
-      <Header />
-
       <div className="thrillers">
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -292,8 +288,6 @@ function Thrillers() {
           </div>
         </Parallax>
       </div>
-
-      <Copyright />
     </>
   );
 }

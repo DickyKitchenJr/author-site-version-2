@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./BlogSection.css";
 import { Twirl as Hamburger } from "hamburger-react";
-import Header from "./Header";
 import Nav from "./Nav";
-import Copyright from "./Copyright";
 import BlogHome from "../Blogs/BlogHome";
 import Pantser from "../Blogs/Pantser";
 import TheReview from "../Blogs/TheReview";
@@ -23,7 +21,6 @@ function BlogSection() {
   return (
     <>
       {/* TODO: Create addition files holding blogs; create links for individual blogs, look into building a comments section */}
-      <Header />
       <div className="blog-section">
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -43,7 +40,6 @@ function BlogSection() {
           <Route path="writing-prompt-4" element={<WritingPrompt4 />} />
         </Routes>
       </div>
-      <Copyright />
     </>
   );
 }
