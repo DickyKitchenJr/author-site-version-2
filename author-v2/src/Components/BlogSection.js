@@ -11,6 +11,7 @@ import TheReview from "../Blogs/TheReview";
 import TalkingToMyself from "../Blogs/TalkingToMyself";
 import LynnePearson from "../Blogs/LynnePearson";
 import TheKid from "../Blogs/TheKid";
+import KarinNordin from "../Blogs/KarinNordin"
 
 function BlogSection() {
   const [isOpen, setOpen] = useState(false);
@@ -31,6 +32,7 @@ function BlogSection() {
           <Route path="talking-to-myself" element={<TalkingToMyself />} />
           <Route path="lynne-pearson" element={<LynnePearson />} />
           <Route path="the-kid" element={<TheKid />} />
+          <Route path="karin-nordin" element={<KarinNordin />} />
         </Routes>
       </div>
       <Copyright />
