@@ -12,6 +12,10 @@ import TalkingToMyself from "../Blogs/TalkingToMyself";
 import LynnePearson from "../Blogs/LynnePearson";
 import TheKid from "../Blogs/TheKid";
 import KarinNordin from "../Blogs/KarinNordin"
+import WritingPrompt1 from "../Blogs/WritingPrompt1";
+import WritingPrompt2 from "../Blogs/WritingPrompt2";
+import WritingPrompt3 from "../Blogs/WritingPrompt3";
+import WritingPrompt4 from "../Blogs/WritingPrompt4";
 
 function BlogSection() {
   const [isOpen, setOpen] = useState(false);
@@ -33,6 +37,10 @@ function BlogSection() {
           <Route path="lynne-pearson" element={<LynnePearson />} />
           <Route path="the-kid" element={<TheKid />} />
           <Route path="karin-nordin" element={<KarinNordin />} />
+          <Route path="writing-prompt-1" element={<WritingPrompt1 />} />
+          <Route path="writing-prompt-2" element={<WritingPrompt2 />} />
+          <Route path="writing-prompt-3" element={<WritingPrompt3 />} />
+          <Route path="writing-prompt-4" element={<WritingPrompt4 />} />
         </Routes>
       </div>
       <Copyright />
