@@ -57,3 +57,8 @@
 .guest{
   color: hsl(282, 100%, 41%);
 }
+
+.writing-prompt{
+  font-weight: bold;
+  font-style: italic;
+}
