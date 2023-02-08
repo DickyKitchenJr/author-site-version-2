@@ -30,7 +30,7 @@ function WritingPrompt1() {
         of the prompt:
       </p>
       <p className="blog-p writing-prompt">
-        A mysterious package is on your doorstep when you wake up.
+        Writing Prompt - A mysterious package is on your doorstep when you wake up.
       </p>
       <br />
       <p className="blog-p">
