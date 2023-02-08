@@ -1,7 +1,7 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './Blogs.css';
-import MugShot from '../Images/mug-and-author.webp';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Blogs.css";
+import MugShot from "../Images/mug-and-author.webp";
 
 function BlogHome() {
   return (
@@ -26,33 +26,49 @@ function BlogHome() {
         <NavLink className="blog-section-nav-link" to="pantser">
           <h3>Pantser</h3>
         </NavLink>
+        <NavLink className="blog-section-nav-link" to="writing-prompt-1">
+          <h3>Writing Prompt 1</h3>
+        </NavLink>
         <NavLink className="blog-section-nav-link" to="all-powerful-review">
           <h3>The All-Powerful Review</h3>
+        </NavLink>
+        <NavLink className="blog-section-nav-link" to="writing-prompt-2">
+          <h3>Writing Prompt 2</h3>
         </NavLink>
         <NavLink className="blog-section-nav-link" to="talking-to-myself">
           <h3>Talking to Myself</h3>
         </NavLink>
+        <NavLink className="blog-section-nav-link" to="writing-prompt-3">
+          <h3>Writing Prompt 3</h3>
+        </NavLink>
         <NavLink className="blog-section-nav-link" to="lynne-pearson">
           <h3>Interview with Lynne Pearson</h3>
         </NavLink>
-        <NavLink className="blog-section-nav-link" to='the-kid'>
+        <NavLink className="blog-section-nav-link" to="writing-prompt-4">
+          <h3>Writing Prompt 4</h3>
+        </NavLink>
+        <NavLink className="blog-section-nav-link" to="the-kid">
           <h3>The Kid - Sneak Peek</h3>
         </NavLink>
-        <NavLink className="blog-section-nav-link" to='karin-nordin'>
+        <NavLink className="blog-section-nav-link" to="karin-nordin">
           <h3>Interview with Karin Nordin</h3>
         </NavLink>
+
         <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 7</h3>
+          <h3>Place Holder 11</h3>
         </NavLink>
         <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 8</h3>
+          <h3>Place Holder 12</h3>
         </NavLink>
         <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 9</h3>
+          <h3>Place Holder 13</h3>
+        </NavLink>
+        <NavLink className="blog-section-nav-link">
+          <h3>Place Holder 14</h3>
         </NavLink>
       </nav>
     </>
   );
 }
 
-export default BlogHome
+export default BlogHome;
