@@ -31,6 +31,7 @@ function WritingPrompt2() {
         of the prompt:
       </p>
       <p className="blog-p writing-prompt">Writing Prompt -</p>
+      
       <figure className="blog-figure">
         <img
           className="blog-img"
