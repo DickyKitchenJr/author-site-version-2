@@ -13,7 +13,7 @@ function WritingPrompt4() {
 
       <div className="blog-header">
         <h2 className="blog-h2">BookInd Writing Prompt</h2>
-        <h3 className="blog-h3">Prompt from 9/28/2022</h3>
+        <h3 className="blog-h3">Prompt from 10/19/2022</h3>
       </div>
 
       <figure className="blog-figure">
