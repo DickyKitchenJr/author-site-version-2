@@ -50,19 +50,20 @@ function BlogHome() {
         <NavLink className="blog-section-nav-link" to="the-kid">
           <h3>The Kid - Sneak Peek</h3>
         </NavLink>
+        <NavLink className="blog-section-nav-link" to='writing-prompt-5'>
+          <h3>Writing Prompt 5</h3>
+        </NavLink>
         <NavLink className="blog-section-nav-link" to="karin-nordin">
           <h3>Interview with Karin Nordin</h3>
         </NavLink>
+        <NavLink className="blog-section-nav-link" to='writing-prompt-6'>
+          <h3>Writing Prompt 6</h3>
+        </NavLink>
+        <NavLink className="blog-section-nav-link" to='writing-challenge1'>
+          <h3>BookInd Member Challenge</h3>
+        </NavLink>
+        
 
-        <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 11</h3>
-        </NavLink>
-        <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 12</h3>
-        </NavLink>
-        <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 13</h3>
-        </NavLink>
         <NavLink className="blog-section-nav-link">
           <h3>Place Holder 14</h3>
         </NavLink>
