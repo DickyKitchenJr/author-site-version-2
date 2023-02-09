@@ -4,46 +4,47 @@
   font-display: swap;
 }
 
-.bookind{
-    background-color: hsl(120, 100%, 97%);
+.bookind {
+  background-color: hsl(120, 100%, 97%);
 }
 
-.bookind-header{
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1rem;
+.bookind-header {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
 }
 
-.bookind-h2{
-    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-size: 9vw;
-    text-align: center;
+.bookind-h2 {
+  font-family: "Abril Fatface", "Times New Roman", Times, serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 9vw;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
-    .bookind-h2{
-        font-size: 6vw;
-    }
+  .bookind-h2 {
+    font-size: 6vw;
+  }
 }
 
-.bookind-logo{
-    max-width: 100%;
+.bookind-logo {
+  max-width: 100%;
 }
 
-.bookind-h3, .bookind-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .25rem;
+.bookind-h3,
+.bookind-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.25rem;
 }
 
-.bookind-ul{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 3rem;
-    padding-right: 1rem;
+.bookind-ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 3rem;
+  padding-right: 1rem;
 }
