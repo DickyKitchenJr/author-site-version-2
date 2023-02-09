@@ -7,6 +7,7 @@ import About from './Components/About';
 import KidFriendly from './Components/KidFriendly';
 import Thrillers from './Components/Thrillers';
 import BlogSection from './Components/BlogSection';
+import BookInd from './Components/BookInd';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/blogs/*' element={<BlogSection />} />
         <Route path='/thrillers' element={<Thrillers />} />
         <Route path='/kidfriendly' element= {<KidFriendly />} />
+        <Route path='/bookind' element={<BookInd />} />
         <Route path='/*' element = {<LandingPage/>} />
       </Routes>
     <Copyright />
