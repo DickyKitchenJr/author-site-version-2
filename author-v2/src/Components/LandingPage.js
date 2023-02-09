@@ -34,6 +34,9 @@ function LandingPage() {
             <Link className="landing-link" to="/kidfriendly">
               KID FRIENDLY
             </Link>
+            <Link className="landing-link" to="/bookind">
+              BOOKIND
+            </Link>
           </nav>
         </main>
       </Parallax>
