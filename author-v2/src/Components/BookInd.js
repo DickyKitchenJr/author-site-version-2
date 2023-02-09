@@ -225,7 +225,7 @@ function BookInd() {
           encouraging creativity.
         </p>
         <br />
-        <h3 className="bookind-h3" style={{textAlign: 'center'}}>
+        <h3 className="bookind-h3" style={{ textAlign: "center" }}>
           What are you waiting for? Come join us! 😁
         </h3>
         <br />
