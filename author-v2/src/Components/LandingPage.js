@@ -8,7 +8,6 @@ import BWAuthor from "../Images/author-no-background.png";
 function LandingPage() {
   return (
     <>
-      {/* TODO: add friendly author pic and navigation section, possibly a short intro or hook? */}
       <Parallax
         blur={3}
         bgImage={OpenBook}
