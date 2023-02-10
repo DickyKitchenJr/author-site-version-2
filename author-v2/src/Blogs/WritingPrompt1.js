@@ -29,6 +29,7 @@ function WritingPrompt1() {
         piece of writing. The following is one such prompt and my subsequent use
         of the prompt:
       </p>
+      <br />
       <p className="blog-p writing-prompt">
         Writing Prompt - A mysterious package is on your doorstep when you wake up.
       </p>
