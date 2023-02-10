@@ -29,6 +29,7 @@ function WritingPrompt3() {
         piece of writing. The following is one such prompt and my subsequent use
         of the prompt:
       </p>
+      <br />
       <p className="blog-p writing-prompt">
         Writing Prompt - Two characters square off in a fight or challenge that
         will define how their future plays out. However, one of them is suddenly
