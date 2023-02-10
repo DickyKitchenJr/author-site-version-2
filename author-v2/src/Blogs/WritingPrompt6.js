@@ -29,6 +29,7 @@ function WritingPrompt6() {
         piece of writing. The following is one such prompt and my subsequent use
         of the prompt:
       </p>
+      <br />
       <p className="blog-p writing-prompt">
         Writing Prompt - Base a short around a resolution a character made
       </p>
