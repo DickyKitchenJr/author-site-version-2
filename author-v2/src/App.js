@@ -1,4 +1,5 @@
 import "./App.css";
+import ScrollToTop from "./Helpers/ScrollToTop";
 import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Copyright from "./Components/Copyright";
@@ -12,6 +13,7 @@ import BookInd from "./Components/BookInd";
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
