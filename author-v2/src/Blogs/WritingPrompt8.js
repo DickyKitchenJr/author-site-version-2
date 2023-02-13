@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import { NavLink } from "react-router-dom";
 import WriteSomething from "../Images/write-something.webp";
-import Cuffs from '../Images/handcuffs.webp';
+import Cuffs from "../Images/handcuffs.webp";
 
 function WritingPrompt8() {
   return (
@@ -267,4 +267,4 @@ function WritingPrompt8() {
   );
 }
 
-export default WritingPrompt8
+export default WritingPrompt8;
