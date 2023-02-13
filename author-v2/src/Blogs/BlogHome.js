@@ -65,9 +65,8 @@ function BlogHome() {
         <NavLink className="blog-section-nav-link" to="writing-prompt-7">
           <h3>Writing Prompt 7</h3>
         </NavLink>
-
-        <NavLink className="blog-section-nav-link">
-          <h3>Place Holder 14</h3>
+        <NavLink className="blog-section-nav-link" to="writing-prompt-8">
+          <h3>Writing Prompt 8</h3>
         </NavLink>
       </nav>
     </>
