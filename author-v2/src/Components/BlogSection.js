@@ -18,6 +18,7 @@ import WritingPrompt5 from "../Blogs/WritingPrompt5";
 import WritingChallenge from "../Blogs/WritingChallenge";
 import WritingPrompt6 from "../Blogs/WritingPrompt6";
 import WritingPrompt7 from "../Blogs/WritingPrompt7";
+import WritingPrompt8 from "../Blogs/WritingPrompt8";
 
 function BlogSection() {
   const [isOpen, setOpen] = useState(false);
@@ -46,6 +47,7 @@ function BlogSection() {
           <Route path="writing-challenge1" element={<WritingChallenge />} />
           <Route path="writing-prompt-6" element={<WritingPrompt6 />} />
           <Route path="writing-prompt-7" element={<WritingPrompt7 />} />
+          <Route path="writing-prompt-8" element={<WritingPrompt8 />} />
         </Routes>
       </div>
     </>
