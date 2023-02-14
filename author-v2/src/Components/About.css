@@ -4,10 +4,6 @@
   font-display: swap;
 }
 
-.about{
-    background-color: hsl(120, 100%, 97%);
-}
-
 .about-header{
     width: fit-content;
     margin-right: auto;
@@ -35,18 +31,13 @@
 }
 
 .about-p{
-    padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .25rem;
 }
 
 .about-span{
     font-style: italic;
     font-weight: bold;
-}
-
-.about-ul{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1rem;
 }
