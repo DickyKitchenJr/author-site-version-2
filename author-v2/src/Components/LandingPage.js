@@ -2,7 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 import { Parallax } from "react-parallax";
 import { Link } from "react-router-dom";
-import OpenBook from "../Images/open-book-angled.jpg";
+import OpenBook from "../Images/open-book-angled.webp";
 import BWAuthor from "../Images/author-no-background.png";
 
 function LandingPage() {
