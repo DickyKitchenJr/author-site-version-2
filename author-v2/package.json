@@ -1,6 +1,8 @@
 {
   "name": "author-v2",
+  "homepage": "https://dickykitchenjr.com",
   "version": "0.1.0",
+  "description": "Author Dicky Kitchen Jr shares his books, blogs, musings, and random writings on his personal site.",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
