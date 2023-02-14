@@ -260,7 +260,7 @@ function LynnePearson() {
         I ask authors about their writing background, their publishing goals,
         their concerns. Then we determine the level of editing they require. I
         download the manuscript onto my kindle so I’m not tempted to start
-        editing write away. The first editing pass starts with running the
+        editing right away. The first editing pass starts with running the
         manuscript through PefectIt. That helps with inconsistencies. Then I go
         through the book sentence by sentence, paragraph by paragraph. I edit in
         Word. I use the comment bubbles to make suggestions, point out issues,
