@@ -19,7 +19,7 @@ function Thrillers() {
 
   return (
     <>
-      <div className="thrillers">
+      <div>
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
           {isOpen ? <Nav /> : null}

@@ -9,7 +9,7 @@ function BookInd() {
 
   return (
     <>
-      <div className="bookind">
+      <div>
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
           {isOpen ? <Nav /> : null}

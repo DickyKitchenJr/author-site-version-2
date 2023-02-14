@@ -4,10 +4,6 @@
   font-display: swap;
 }
 
-.blog-section{
-    background-color: hsl(120, 100%, 97%);
-}
-
 .blog-section-nav{
     display: grid;
     grid-template-columns: auto auto auto;

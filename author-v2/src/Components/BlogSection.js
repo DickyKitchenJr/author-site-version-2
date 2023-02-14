@@ -25,8 +25,7 @@ function BlogSection() {
 
   return (
     <>
-      {/* TODO: Create addition files holding blogs; create links for individual blogs, look into building a comments section */}
-      <div className="blog-section">
+      <div>
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
           {isOpen ? <Nav /> : null}

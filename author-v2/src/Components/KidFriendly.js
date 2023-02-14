@@ -16,7 +16,7 @@ function KidFriendly() {
 
   return (
     <>
-      <div className='kids-section'>
+      <div>
       <div className="nav-menu">
         <Hamburger toggled={isOpen} toggle={setOpen} />
         {isOpen ? <Nav /> : null}

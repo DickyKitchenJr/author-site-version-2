@@ -9,8 +9,7 @@ function About() {
 
   return (
     <>
-      {/* TODO: Finish writing bio and possibly include a links section for resources */}
-      <div className="about">
+      <div>
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
           {isOpen ? <Nav /> : null}
@@ -37,13 +36,16 @@ function About() {
             </a>
             , and friend to the writing community; Dicky Kitchen Jr answers the
             all-important question:
-            <br />
+          </p>
+          <br />
+          <p className="about-p">
             <span className="about-span">
               "What happens when you name your child after a body part and a
               room in the house?"
             </span>
-            <br />
-            <br />
+          </p>
+          <br />
+          <p className="about-p">
             The answer:
             <br />
             <span className="about-span">
@@ -51,38 +53,51 @@ function About() {
               creating a story with both third and first person storytelling
               (all while not giving names to any significant character), and
               creates an ending that has left readers gasping and in awe!...
-              <br />
+            </span>
+          </p>
+          <br />
+          <p className="about-p">
+            <span className="about-span">
               Then he makes a cute children's book just to balance things out.
             </span>
-            <br />
-            <br />
-            Dicky Kitchen Jr brings his unique personality and life experiences
-            to his writings (probably shouldn't say that after the whole
-            "creates his own serial killer" thing), resulting in stories unlike
-            any seen before.
           </p>
-
-          <div className="about-footer">
-            <p className="about-p">
-              Interviews of Dicky Kitchen Jr can be found here:
-            </p>
-            <ul className="about-ul">
-              <li><a
+          <br />
+          <p className="about-p">
+            Bringing his unique personality and life experiences to his
+            writings, Dicky Kitchen Jr was a top 10 finalist in{" "} 
+            <a
+              href="https://www.instagram.com/p/CH1eG0BA2_i/?igshid=YmMyMTA2M2Y%3D"
+              target="_blank"
+              rel="noreferrer"
+            >
+             Balancing Books and Bottles “2020 New Author”{" "}
+            </a>
+            contest, and has also been a guest on the{" "}
+            <a
+              href="https://fableandtheverbivore.com/podcast/episode-132-interview-with-dicky-kitchen-jr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Fable and The Verbivore Podcast
+            </a>{" "}
+            as well as being a featured author on{" "}
+            <a
               href="https://www.jessicacantwellbooks.com/post/prey-pray-by-dicky-kitchen-jr"
               target="_blank"
               rel="noreferrer"
             >
-              Jessica Cantwell Books
-            </a></li>
-            <li>
-              <a
-              href="https://fableandtheverbivore.com/podcast/episode-132-interview-with-dicky-kitchen-jr"
-              target="_blank"
-              rel="noreferrer"
-            >Fable & The Verbivore Podcast</a>
-            </li>
-            </ul>
-          </div>
+              Jessica Cantwell’s
+            </a>{" "}
+            site.
+          </p>
+          <br />
+          <p className="about-p">
+            When he’s not using his free time to create amazing new and original
+            tales, you can find Dicky talking with other writers about their
+            craft, spending time with his wonderful wife and child, or enjoying
+            nature.
+          </p>
+          <br />
         </main>
       </div>
     </>

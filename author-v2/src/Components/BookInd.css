@@ -4,10 +4,6 @@
   font-display: swap;
 }
 
-.bookind {
-  background-color: hsl(120, 100%, 97%);
-}
-
 .bookind-header {
   width: fit-content;
   margin-right: auto;
