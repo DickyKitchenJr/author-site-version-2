@@ -5,14 +5,12 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Copyright from "./Components/Copyright";
 import LandingPage from "./Components/LandingPage";
-// import About from "./Components/About";
-import KidFriendly from "./Components/KidFriendly";
-import Thrillers from "./Components/Thrillers";
-// import BlogSection from "./Components/BlogSection";
-import BookInd from "./Components/BookInd";
 
-const About = lazy(() => import('./Components/About'));
+const About = lazy(() => import("./Components/About"));
 const BlogSection = lazy(() => import("./Components/BlogSection"));
+const Thrillers = lazy(() => import("./Components/Thrillers"));
+const KidFriendly = lazy(() => import("./Components/KidFriendly"));
+const BookInd = lazy(() => import("./Components/BookInd"));
 
 function App() {
   return (
@@ -21,23 +19,82 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route 
-        path="/about" 
-        element={ <Suspense fallback={ <h1 style={{ padding: "10rem" }}>Fetching the awesomeness...</h1>}>
-          <About />
-          </Suspense>}/>
+
+        <Route
+          path="/about"
+          element={
+            <Suspense
+              fallback={
+                <h1 style={{ padding: "10rem" }}>
+                  Fetching the awesomeness...
+                </h1>
+              }
+            >
+              <About />
+            </Suspense>
+          }
+        />
+
         <Route
           path="/blogs/*"
           element={
-            <Suspense fallback={<h1 style={{ padding: "10rem" }}>Fetching the awesomeness...</h1>}>
+            <Suspense
+              fallback={
+                <h1 style={{ padding: "10rem" }}>
+                  Fetching the awesomeness...
+                </h1>
+              }
+            >
               <BlogSection />
             </Suspense>
           }
         />
 
-        <Route path="/thrillers" element={<Thrillers />} />
-        <Route path="/kidfriendly" element={<KidFriendly />} />
-        <Route path="/bookind" element={<BookInd />} />
+        <Route
+          path="/thrillers"
+          element={
+            <Suspense
+              fallback={
+                <h1 style={{ padding: "10rem" }}>
+                  Fetching the awesomeness...
+                </h1>
+              }
+            >
+              <Thrillers />
+            </Suspense>
+          }
+        />
+
+        <Route
+          path="/kidfriendly"
+          element={
+            <Suspense
+              fallback={
+                <h1 style={{ padding: "10rem" }}>
+                  Fetching the awesomeness...
+                </h1>
+              }
+            >
+              <KidFriendly />
+            </Suspense>
+          }
+        />
+
+        <Route
+          path="/bookind"
+          element={
+            <Suspense
+              fallback={
+                <h1 style={{ padding: "10rem" }}>
+                  Fetching the awesomeness...
+                </h1>
+              }
+            >
+              <BookInd />
+            </Suspense>
+          }
+        />
+
         <Route path="/*" element={<LandingPage />} />
       </Routes>
       <Copyright />
