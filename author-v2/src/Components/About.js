@@ -26,16 +26,7 @@ function About() {
           </div>
 
           <p className="about-p">
-            Author, creator of the writing discord server{" "}
-            <a
-              href="https://discord.gg/K9VtKNKqsB"
-              target="_blank"
-              rel="noreferrer"
-            >
-              BookInd
-            </a>
-            , and friend to the writing community; Dicky Kitchen Jr answers the
-            all-important question:
+            Author Dicky Kitchen Jr answers the all-important question:
           </p>
           <br />
           <p className="about-p">
@@ -64,13 +55,13 @@ function About() {
           <br />
           <p className="about-p">
             Bringing his unique personality and life experiences to his
-            writings, Dicky Kitchen Jr was a top 10 finalist in{" "} 
+            writings, Dicky Kitchen Jr was a top 10 finalist in{" "}
             <a
               href="https://www.instagram.com/p/CH1eG0BA2_i/?igshid=YmMyMTA2M2Y%3D"
               target="_blank"
               rel="noreferrer"
             >
-             Balancing Books and Bottles “2020 New Author”{" "}
+              Balancing Books and Bottles “2020 New Author”{" "}
             </a>
             contest, and has also been a guest on the{" "}
             <a
