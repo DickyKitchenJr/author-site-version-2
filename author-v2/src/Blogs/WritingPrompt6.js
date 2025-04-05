@@ -72,7 +72,7 @@ function WritingPrompt6() {
       <p className="blog-p">“Haven’t you people ever heard of closing the…”</p>
       <br />
       <p className="blog-p">
-        “Ryan! We’ve talked about this. That is not how you great new members.”
+        “Ryan! We’ve talked about this. That is not how you greet new members.”
         A man said as he stood from his chair, cutting off the words of the
         first.
       </p>
@@ -407,9 +407,7 @@ function WritingPrompt6() {
         <li>Reckoning Lament by Lincoln Durham</li>
         <li>I’d Rather Go Blind by Etta James</li>
         <li>Jeremy by Pearl Jam</li>
-        <li>
-          Nobody Knows You (When You’re Down and Out) by Ottis Redding
-        </li>
+        <li>Nobody Knows You (When You’re Down and Out) by Ottis Redding</li>
       </ul>
       <br />
     </>
