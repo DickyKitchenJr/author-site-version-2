@@ -4,33 +4,34 @@
   font-display: swap;
 }
 
-.blog-section-nav{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 1rem;
+.blog-section-nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1rem;
 }
 
-.blog-section-nav-link{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1rem;
+.blog-section-nav-link {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
 }
 
-.blog-header{
-    text-align: center;
-    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
-    padding: 1rem;
+.blog-header {
+  text-align: center;
+  font-family: "Abril Fatface", "Times New Roman", Times, serif;
+  padding: 1rem;
 }
 
-.blog-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .25rem;
+.blog-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 0.25rem;
 }
 
-.blog-ul{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 3rem;
-    padding-right: 1rem;
+.blog-ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  list-style: inside;
 }

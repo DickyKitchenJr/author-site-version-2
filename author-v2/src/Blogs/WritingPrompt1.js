@@ -11,7 +11,7 @@ function WritingPrompt1() {
       </NavLink>
 
       <div className="blog-header">
-        <h2 className="blog-h2">BookInd Writing Prompt</h2>
+        <h2 className="blog-h2">Writing Prompt Challenge</h2>
         <h3 className="blog-h3">Prompt from 9/21/2022</h3>
       </div>
 
@@ -24,14 +24,14 @@ function WritingPrompt1() {
       </figure>
 
       <p className="blog-p">
-        Every week a new writing prompt is added to the BookInd community. The
-        rules are simple - use the prompt or it's essence to create a short
-        piece of writing. The following is one such prompt and my subsequent use
-        of the prompt:
+        On occasion I will create shorts using writing prompts provided to me
+        from random people. The following is one such prompt and my subsequent
+        use of the prompt:
       </p>
       <br />
       <p className="blog-p writing-prompt">
-        Writing Prompt - A mysterious package is on your doorstep when you wake up.
+        Writing Prompt - A mysterious package is on your doorstep when you wake
+        up.
       </p>
       <br />
       <p className="blog-p">

@@ -4,40 +4,40 @@
   font-display: swap;
 }
 
-.about-header{
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
+.about-header {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.about-h2{
-    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-size: 9vw;
-    text-align: center;
+.about-h2 {
+  font-family: "Abril Fatface", "Times New Roman", Times, serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 9vw;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
-    .about-h2{
-        font-size: 6vw;
-    }
+  .about-h2 {
+    font-size: 6vw;
+  }
 }
 
-.typing-author{
-    max-width: 100%;
+.typing-author {
+  max-width: 100%;
 }
 
-.about-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .25rem;
+.about-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 0.25rem;
 }
 
-.about-span{
-    font-style: italic;
-    font-weight: bold;
+.about-span {
+  font-style: italic;
+  font-weight: bold;
 }

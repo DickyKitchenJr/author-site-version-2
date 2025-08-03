@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { NavLink } from "react-router-dom";
 import WriteSomething from "../Images/write-something.webp";
 import Spider from "../Images/spider.webp";
@@ -12,7 +12,7 @@ function WritingPrompt7() {
       </NavLink>
 
       <div className="blog-header">
-        <h2 className="blog-h2">BookInd Writing Prompt</h2>
+        <h2 className="blog-h2">Writing Prompt Challenge</h2>
         <h3 className="blog-h3">Prompt from 11/02/2022</h3>
       </div>
 
@@ -25,10 +25,9 @@ function WritingPrompt7() {
       </figure>
 
       <p className="blog-p">
-        Every week a new writing prompt is added to the BookInd community. The
-        rules are simple - use the prompt or it's essence to create a short
-        piece of writing. The following is one such prompt and my subsequent use
-        of the prompt:
+        On occasion I will create shorts using writing prompts provided to me
+        from random people. The following is one such prompt and my subsequent
+        use of the prompt:
       </p>
       <br />
       <p className="blog-p writing-prompt">
@@ -166,4 +165,4 @@ function WritingPrompt7() {
   );
 }
 
-export default WritingPrompt7
+export default WritingPrompt7;

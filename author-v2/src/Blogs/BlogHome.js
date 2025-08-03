@@ -60,13 +60,13 @@ function BlogHome() {
           <h3>Writing Prompt 6</h3>
         </NavLink>
         <NavLink className="blog-section-nav-link" to="writing-challenge1">
-          <h3>BookInd Member Challenge</h3>
-        </NavLink>
-        <NavLink className="blog-section-nav-link" to="writing-prompt-7">
           <h3>Writing Prompt 7</h3>
         </NavLink>
-        <NavLink className="blog-section-nav-link" to="writing-prompt-8">
+        <NavLink className="blog-section-nav-link" to="writing-prompt-7">
           <h3>Writing Prompt 8</h3>
+        </NavLink>
+        <NavLink className="blog-section-nav-link" to="writing-prompt-8">
+          <h3>Writing Prompt 9</h3>
         </NavLink>
       </nav>
     </>

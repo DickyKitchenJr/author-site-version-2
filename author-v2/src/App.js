@@ -10,7 +10,6 @@ const About = lazy(() => import("./Components/About"));
 const BlogSection = lazy(() => import("./Components/BlogSection"));
 const Thrillers = lazy(() => import("./Components/Thrillers"));
 const KidFriendly = lazy(() => import("./Components/KidFriendly"));
-const BookInd = lazy(() => import("./Components/BookInd"));
 
 function App() {
   return (
@@ -79,22 +78,6 @@ function App() {
             </Suspense>
           }
         />
-
-        <Route
-          path="/bookind"
-          element={
-            <Suspense
-              fallback={
-                <h1 style={{ padding: "10rem" }}>
-                  Fetching the awesomeness...
-                </h1>
-              }
-            >
-              <BookInd />
-            </Suspense>
-          }
-        />
-
         <Route path="/*" element={<LandingPage />} />
       </Routes>
       <Copyright />

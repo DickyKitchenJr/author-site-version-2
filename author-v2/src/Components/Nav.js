@@ -44,15 +44,6 @@ function Nav() {
       >
         KID FRIENDLY
       </NavLink>
-      {/* <NavLink
-        className="nav-link"
-        style={({ isActive }) => {
-          return isActive ? { color: "hsl(0, 83%, 47%)" } : {};
-        }}
-        to="/bookind"
-      >
-        BOOKIND
-      </NavLink> */}
     </nav>
   );
 }

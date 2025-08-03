@@ -11,7 +11,7 @@ function WritingChallenge() {
       </NavLink>
 
       <div className="blog-header">
-        <h2 className="blog-h2">BookInd Member Challenge</h2>
+        <h2 className="blog-h2">Writing Prompt Challenge</h2>
         <h3 className="blog-h3">Challenge Issued By Author Brittany Putzer</h3>
       </div>
 
@@ -24,15 +24,22 @@ function WritingChallenge() {
       </figure>
 
       <p className="blog-p">
-        In addition to the weekly writing prompts on BookInd, there is also a
-        section where members can challenge other members to write in genres
-        outside of their comfort zone.
+        On occasion I will create shorts using writing prompts provided to me
+        from random people. Sometimes people take advantage of that and try to
+        force me to write in genres outside of my comfort zone.
       </p>
       <br />
       <p className="blog-p">
-        Such is the case when the evil, diabolical, romance writer; Brittany
-        Putzer, challenged me (a thriller writer) to write a short in the
-        romance genre.
+        Such is the case when the evil, diabolical, romance writer;{" "}
+        <a
+          href="https://www.brittanyputzer.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Brittany Putzer
+        </a>
+        , challenged me (a thriller writer) to write a short in the romance
+        genre.
       </p>
       <br />
       <p className="blog-p">
