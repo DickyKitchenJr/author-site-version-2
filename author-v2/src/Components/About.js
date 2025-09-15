@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./About.css";
 import { Twirl as Hamburger } from "hamburger-react";
 import Nav from "./Nav";
@@ -6,10 +6,32 @@ import TypingAuthor from "../Images/author-typing.webp";
 
 function About() {
   const [isOpen, setOpen] = useState(false);
+  const [minHeight, setMinHeight] = useState("85vh");
+
+  // was having difficulty getting main to take up a minimum of full screen height (with header and footer), so used this to make sure it always takes up at least the screen height dynamically
+  const updateMinHeight = () => {
+    if (window.innerWidth >= 1000) {
+      const newMinHeight = window.innerHeight * 0.8918;
+      setMinHeight(`${newMinHeight}px`);
+    } else {
+      const newMinHeight = window.innerHeight * 0.857;
+      setMinHeight(`${newMinHeight}px`);
+    }
+  };
+
+  useEffect(() => {
+    updateMinHeight();
+
+    window.addEventListener("resize", updateMinHeight);
+
+    return () => {
+      window.removeEventListener("resize", updateMinHeight);
+    };
+  }, []);
 
   return (
     <>
-      <div>
+      <div style={{ minHeight: minHeight }}>
         <div className="nav-menu">
           <Hamburger toggled={isOpen} toggle={setOpen} />
           {isOpen ? <Nav /> : null}

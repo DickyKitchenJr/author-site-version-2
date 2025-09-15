@@ -8,65 +8,59 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .landing-link {
   display: block;
   font-family: "Abril Fatface", "Times New Roman", Times, serif;
-  font-size: 12vw;
+  font-size: clamp(9vw, 10vw, 12vw);
   color: black;
   text-decoration: none;
   text-align: center;
+  line-height: 110%;
 }
 
-.landing-link:hover{
+.landing-link:hover {
   color: hsl(0, 83%, 47%);
 }
 
-.bw-author{
-  width: 80vw;
-  padding-top: 15vw;
+.bw-author {
+  width: 75vw;
+  padding-top: 2rem;
 }
 
-.landing-nav{
-  padding-bottom: 15vw;
-}
-
-@media only screen and (min-width: 600px) {
-  .bw-author {
-    width: 55vw;
-    padding-top: 7vw;
-  }
-
-  .landing-nav{
-    padding-bottom: 10vw;
-  }
-
-  .landing-link{
-    font-size: 10vw;
-  }
+.landing-nav {
+  padding-bottom: 2rem;
 }
 
 @media only screen and (min-width: 1000px) {
   .landing-main {
-    padding-top: 7vw;
-    padding-bottom: 7vw;
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-evenly;
+    gap: 0;
   }
 
-  .landing-nav{
+  .landing-nav {
     padding-bottom: 0;
-    margin-bottom: -8vw;
+    margin-bottom: -8rem;
   }
 
   .landing-link {
-    font-size: 7vw;
+    font-size: 5rem;
     text-align: left;
   }
 
   .bw-author {
-    width: 40vw;
+    width: 32rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .landing-main {
+    justify-content: center;
+    gap: 3rem;
   }
 }

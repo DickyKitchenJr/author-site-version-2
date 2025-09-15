@@ -5,29 +5,31 @@
 }
 
 .about-header {
-  width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-h2 {
   font-family: "Abril Fatface", "Times New Roman", Times, serif;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  font-size: 9vw;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: clamp(9vw, 10vw, 12vw);
   text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
   .about-h2 {
-    font-size: 6vw;
+    font-size: 6rem;
   }
 }
 
-.typing-author {
-  max-width: 100%;
+@media only screen and (min-width: 1000px) {
+  .typing-author {
+    align-self: center;
+    width: clamp(30%, 35%, 35%);
+  }
 }
 
 .about-p {
