@@ -41,10 +41,8 @@ function KidFriendly() {
             <p className="kids-book-blurb">
               Taking inspiration from the tongue twister originally published by John Harris in 1813, this re-imagining of the classic will leave you and your children laughing as you slip, trip, and fall over the tongue twisting tale of Peter Piper and his pickled peppers.
             </p>
-            <br/>
             <p className="kids-book-blurb">Will you giggle at your goofy gaffes as your toppling tumbling tongue twist? Or will you tackle the twisting turns triumphantly?
             </p>
-            <br/>
             <p className="kids-book-blurb">Put your tongue twister skills to the test as you follow Peter Piper's tale of picking peppers, pickling plants, and perplexing pickled people in peril!
             </p>
           </div>
@@ -62,8 +60,6 @@ function KidFriendly() {
             </p> 
             </div>
             
-            <br />
-            
             <div className='kids-review-box'>
               <p className="kids-reviewer">Marybeth Geer (Amazon review):</p>
             <p className="kids-rating">5 out of 5 {star}</p>
@@ -71,8 +67,6 @@ function KidFriendly() {
               Great book for inquisitive minds and educational...
             </p>
             </div>
-            
-            <br />
 
             <div className='kids-review-box'>
               <p className="kids-reviewer">

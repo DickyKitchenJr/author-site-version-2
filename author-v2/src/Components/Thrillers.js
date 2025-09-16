@@ -45,12 +45,12 @@ function Thrillers() {
               Get to know a new kind of serial killer in this psychological
               thriller that will have you guessing until the last page!
             </p>
-            <br />
+            
             <p className="book-blurb">
               What drives an average man to kill? To violently plot the taking
               of a life? What drives The Average Man to murder?
             </p>
-            <br />
+            
             <p className="book-blurb">
               That’s what The Tall Man finds himself asking as he sits across
               from a murderer awaiting trial. Requested personally for this
@@ -59,7 +59,7 @@ function Thrillers() {
               As the tale unfolds, The Tall Man finds that there’s far more
               darkness to the killer than he ever could have imagined.
             </p>
-            <br />
+            
             <p className="book-blurb">
               Tensions rise, and The Tall man listens as The Average Man
               confesses to more than just the murders he’s on trial for. But
@@ -67,12 +67,12 @@ function Thrillers() {
               The Tall Man survive as a far more horrifying tale unravels before
               him?
             </p>
-            <br />
+            
             <p className="book-blurb">
               Can The Tall Man piece everything together and ensure the killer
               pays for his crimes? Or will he become the next prey?
             </p>
-            <br />
+            
             <p className="book-blurb">
               Author Dicky Kitchen Jr. offers a tantalizing psychological
               thriller that will have readers caught with bated breaths. For by
@@ -99,8 +99,6 @@ function Thrillers() {
               </p>
             </div>
 
-            <br />
-
             <div className="review-box">
               <p className="reviewer">Natalie (Amazon review - 2nd ed):</p>
               <p className="rating">5 out of 5 {star}</p>
@@ -112,8 +110,6 @@ function Thrillers() {
                 you pick it up, you won’t be able to put it down...
               </p>
             </div>
-
-            <br />
 
             <div className="review-box">
               <p className="reviewer">
@@ -128,8 +124,6 @@ function Thrillers() {
               </p>
             </div>
 
-            <br />
-
             <div className="review-box">
               <p className="reviewer">
                 Sherry L. Ross (Amazon review - 1st ed):
@@ -141,8 +135,6 @@ function Thrillers() {
                 its head...
               </p>
             </div>
-
-            <br />
 
             <div className="review-box">
               <p className="reviewer">Beth(Amazon review - 1st ed)</p>
@@ -195,14 +187,14 @@ function Thrillers() {
               dangerous creature capable of vile dark destruction, and the other
               is fiction.
             </p>
-            <br />
+           
             <p className="book-blurb">
               Pulled from the pages of 'Prey/Pray: Origin of The Average Man',
               learn the truth behind how The Nurse came to be as she uncovers
               the depths that someone can be pushed, and what happens when given
               the choice of break or be broken.
             </p>
-            <br />
+           
             <p className="book-blurb">
               Sections of this novella come straight from 'Prey/Pray: Origin of
               The Average Man' and may offer minor spoilers from the novel. If
@@ -222,8 +214,6 @@ function Thrillers() {
               </p>
             </div>
 
-            <br />
-
             <div className="review-box">
               <p className="reviewer">Paula Menz (Amazon review):</p>
               <p className="rating">5 out of 5 {star}</p>
@@ -232,8 +222,6 @@ function Thrillers() {
                 heartstrings...
               </p>
             </div>
-
-            <br />
 
             <div className="review-box">
               <p className="reviewer">Aaron Jacobs (Amazon review):</p>
@@ -245,8 +233,6 @@ function Thrillers() {
               </p>
             </div>
 
-            <br />
-
             <div className="review-box">
               <p className="reviewer">LiveLaughRead (Amazon review):</p>
               <p className="rating">5 out of 5 {star}</p>
@@ -255,8 +241,6 @@ function Thrillers() {
                 wash over you and takes you on an emotional ride...
               </p>
             </div>
-
-            <br />
 
             <div className="review-box">
               <p className="reviewer">AmazonCustomer (Amazon review)</p>

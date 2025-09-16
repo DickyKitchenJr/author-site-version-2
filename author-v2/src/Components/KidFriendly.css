@@ -11,6 +11,9 @@
 }
 
 .kids-blurb-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 3rem;
@@ -21,11 +24,15 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: hsl(34, 78%, 91%);
   background-color: hsl(0deg 0% 0% / 64%);
-  padding: 0.2rem;
+  padding: 0.4rem;
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -webkit-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -moz-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
 }
 
 .kids-book-cover {
@@ -52,6 +59,10 @@
 }
 
 .kids-review-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   color: hsl(34, 78%, 91%);
   padding: 1rem;
 }
@@ -62,17 +73,24 @@
   text-align: center;
   background-color: hsl(0deg 0% 0% / 64%);
   width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 1rem;
+  align-self: center;
+  padding: 0.4rem;
+  border-radius: 5px;
+  box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -webkit-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -moz-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
 }
 
 .kids-review-box {
   width: fit-content;
-  padding: 0.2rem;
+  padding: 0.4rem;
   margin-left: auto;
   margin-right: auto;
   background-color: hsl(0deg 0% 0% / 64%);
+  border-radius: 5px;
+  box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -webkit-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -moz-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
 }
 
 .kids-reviewer {
@@ -104,7 +122,11 @@
   margin: 1.5rem;
   color: hsl(180, 100%, 49%);
   background-color: hsl(0deg 0% 0% / 64%);
-  padding: 0.3rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -webkit-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
+  -moz-box-shadow: -2px 6px 23px 5px hsl(120, 100%, 97%);
 }
 
 .kids-book-link:hover {
