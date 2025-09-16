@@ -10,12 +10,18 @@ function LandingPage() {
 
   // was having difficulty getting main to take up a minimum of full screen height (with header and footer), so used this to make sure it always takes up at least the screen height dynamically
   const updateMinHeight = () => {
-    if (window.innerWidth >= 1000) {
+    if (window.innerHeight >= 1000) {
       const newMinHeight = window.innerHeight * 0.8918;
       setMinHeight(`${newMinHeight}px`);
-    } else {
-      const newMinHeight = window.innerHeight * 0.857;
+    }
+
+    if (window.innerHeight < 1000 && window.innerHeight >= 600) {
+      const newMinHeight = window.innerHeight * 0.856;
       setMinHeight(`${newMinHeight}px`);
+    }
+
+    if (window.innerHeight < 600) {
+      setMinHeight("auto");
     }
   };
 
