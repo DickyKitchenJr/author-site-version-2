@@ -1,7 +1,27 @@
-# author-site-version-2
+# Author Site Version 2
  version 2 of my personal author site used to house my writing blog and things relevant to books I've published
 
- ## Copyright Notice: All writings and books within this site are owned by and have been created by myself (Dicky Kitchen Jr) and are not permitted to be distrubted without written permission expressly detailing the content I am permitting you to use and the length of time you are permitted to use it.
+ ## Hosted Here: [https://dickykitchenjr.com/]
 
-### Purpose:
-- to create a site to advertise books I've published and give readers a place to see samples of those books, reviews of those books, and blogs which feature various topics, interviews, and snippets of writings and upcoming works
+## Purpose:
+- to create a multi-page site to advertise books I've published and give readers a place to see samples and reviews of those books, as well as blogs which feature various topics, interviews, and snippets of writings and upcoming works
+- to entice readers to interact with the site and purchase books
+
+## Resources Used:
+- React
+- React Parallax (https://www.npmjs.com/package/react-parallax)
+- React Router v6 (https://reactrouter.com/en/main)
+- Hamburger React (https://hamburger-react.netlify.app/)
+- Yarn 
+- VS Code
+
+## Achievements:
+
+- created a cohesive style that worked with books in both the thriller and children's book genres
+- utilized responsive design to ensure good user experience across multiple devices by adapting the layouts to various devices
+- developed a dynamic author website using React, incorporating multiple pages to provide an engaging and informative user experience
+- integrated book reviews, blurbs, and PDF samples to enhance user experience when researching what I've written
+
+## Copyright
+
+- This project and the code within are the idea(s) and property of Dicky Kitchen Jr and not permitted to be used/copied without written permission (which must include time and usage limitations)
